@@ -1,8 +1,9 @@
 name: model-training
 
 on:
-  pull_request:
-    branches: main
+  push:
+    branches:
+      - main  # Runs when code is pushed to the main branch
 
 permissions: write-all
 
